@@ -1,0 +1,40 @@
+.popup {
+    display: block;
+    position: absolute;
+    transform: translateX(25%);
+    top: 100px;
+    background-color: #ecf0f3;
+    box-shadow: 0px 0px 0px 0px #aaac, -6px -6px 6px #ffffff3d;
+    padding: 50px;
+    border-radius: 30px;
+    z-index: 2000;
+    width: 782px;
+}
+.popup .btn-close {
+    transform: translate(-100%, -100%);
+}
+.popup span.name {
+    color: #2196f3;
+}
+.invalid-search {
+    position: fixed;
+    width: 319px;
+    height: 38px;
+    background: white;
+    border-radius: 5px;
+    left: 34%;
+    top: 199px;
+    padding: 3px 9px;
+    display: none;
+}
+.invalid-search::before {
+    content: "";
+    width: 0px;
+    height: 0;
+    border-style: solid;
+    border-width: 12px;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -23px;
+    left: 16px;
+}

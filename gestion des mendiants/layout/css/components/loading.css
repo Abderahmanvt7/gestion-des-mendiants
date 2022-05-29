@@ -1,0 +1,36 @@
+.loading {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.loading div {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.tow {
+    animation-delay: 0.25s;
+}
+.three {
+    animation-delay: 0.5s;
+}
+.four {
+    animation-delay: 0.75s;
+}
+.five {
+    animation-delay: 1s;
+}
+@keyframes load {
+    to {
+        opacity: 0.2;
+    }
+}

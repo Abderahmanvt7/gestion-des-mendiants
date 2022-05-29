@@ -1,0 +1,54 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 230px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--color-primary);
+    z-index: 2;
+}
+.navbar-content {
+    width: 100%;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+li.navbar-item {
+    padding: 10px;
+    margin: 24px 0px;
+    text-align: center;
+}
+.navbar-item.accueil,
+.navbar-item.mendiant,
+.navbar-item.formations,
+.navbar-item.activites,
+.navbar-item.hebergement,
+.navbar-item.administrateur {
+    background: white;
+    width: 98%;
+    margin-left: 2%;
+    border-radius: 22px 0 0 22px;
+}
+.navbar-item.accueil a,
+.navbar-item.mendiant a,
+.navbar-item.formations a,
+.navbar-item.activites a,
+.navbar-item.hebergement a,
+.navbar-item.administrateur a {
+    color: var(--color-primary);
+}
+.navbar-nav .navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}

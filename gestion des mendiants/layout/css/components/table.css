@@ -1,0 +1,42 @@
+.table {
+    margin-top: 40px;
+    padding: 0px 50px;
+}
+.tr {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-gray);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+.thead .tr {
+    font-size: 20px;
+    background: white;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.tr .td-opr {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.tr-opr {
+    display: flex;
+}
+.thead .tr-activite {
+    background-color: var(--color-info);
+    color: #fff;
+}
+.thead .tr-formation {
+    background-color: var(--color-success);
+    color: #fff;
+}
+.thead .tr-beneficaire {
+    background-color: var(--color-info);
+    color: #fff;
+}
+.td {
+    padding-top: 20px;
+}

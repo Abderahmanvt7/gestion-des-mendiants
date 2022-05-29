@@ -1,0 +1,42 @@
+.alert {
+    width: 415px;
+    margin: 0px auto;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    z-index: 100;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+}
+.alert-success .btn-close {
+    top: 0px;
+    right: -2px;
+}
+.form .errorPHP-alert {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    margin: 5px;
+}
